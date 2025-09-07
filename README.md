@@ -1,39 +1,24 @@
-# 🎯 Number Guessing Game  
+📝 Tasks Overview
+🔹 Level 1 (Basic)
 
-A simple Python console game where the computer randomly selects a number between **1 and 100**, and the player has to guess it within limited attempts. After each guess, the game provides hints such as **"Too high"** or **"Too low"** until the correct number is guessed or attempts run out.  
+Simple Calculator – A command-line calculator performing addition, subtraction, multiplication, and division with error handling.
 
----
+Number Guessing Game – Random number guessing with feedback ("Too High / Too Low") and limited attempts.
 
-## ✨ Features  
-- Generates a random number between 1–100.  
-- Limited attempts (default: 7).  
-- Gives feedback for each guess.  
-- Ends when guessed correctly or attempts are exhausted.  
+Word Counter – Reads a text file and counts the number of words, handling exceptions gracefully.
 
----
+🔹 Level 2 (Intermediate)
 
-## 🚀 How to Run  
-1. Clone the repository or download the file.  
-2. Run the Python file:  
-   ```bash
-   python number_guessing_game.py
-   ```  
-3. Follow the instructions in the console and try to guess the number!  
+To-Do List Application – CLI-based task manager with add/delete/mark-done features, storing data in JSON/CSV.
 
----
+Data Scraper – Extracts structured data (e.g., news headlines, product prices) using requests and BeautifulSoup, saving results in CSV.
 
-## 🕹 Example Gameplay  
-```
-Welcome to the Number Guessing Game!
-I have selected a number between 1 and 100.
-You have 7 attempts to guess it.
+API Integration – Fetches real-time data (like weather/crypto prices) using external APIs and displays results in a user-friendly format.
 
-Attempt 1: Enter your guess: 50
-Too low! Try again.
+🔹 Level 3 (Advanced)
 
-Attempt 2: Enter your guess: 75
-Too high! Try again.
+Django Web Application with Authentication – A web app with user login, registration, password reset, and role-based permissions.
 
-Attempt 3: Enter your guess: 62
-🎉 Congratulations! You guessed the number in 3 attempts.
-```  
+File Encryption/Decryption – Encrypts and decrypts text files using Caesar Cipher/Fernet encryption.
+
+N-Queens Problem – Solves the classic N-Queens puzzle using backtracking and efficient constraint handling.
