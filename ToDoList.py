@@ -1,6 +1,5 @@
 import json
 import os
-
 FILE_NAME = "tasks.json"
 
 # Load tasks from file
