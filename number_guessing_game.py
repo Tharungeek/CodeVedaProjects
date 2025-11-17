@@ -1,5 +1,6 @@
 import random
 
+
 def number_guessing_game():
     number_to_guess = random.randint(1, 100)
     max_attempts = 7   # you can change the number of attempts
